@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name Spark)(type KiCad)(uri /home/silenz/Projects/Keyboard/kicad/SparkFun-KiCad-Libraries/Footprints)(options "")(descr ""))
+  (lib (name Footprints)(type KiCad)(uri /home/silenz/Projects/Keyboard/kicad/SparkFun-KiCad-Libraries/Footprints)(options "")(descr ""))
+  (lib (name Boards)(type KiCad)(uri /home/silenz/Projects/Keyboard/kicad/SparkFun-KiCad-Libraries/Footprints/Boards.pretty)(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri /home/silenz/Projects/Keyboard/kicad/keyboard_parts.pretty)(options "")(descr ""))
+  (lib (name kicad_lib_tmk)(type KiCad)(uri /home/silenz/Projects/Keyboard/kicad/kicad_lib_tmk)(options "")(descr ""))
+  (lib (name keebs)(type KiCad)(uri /home/silenz/Projects/Keyboard/kicad/keebs.pretty)(options "")(descr ""))
+  (lib (name Connectors)(type KiCad)(uri /home/silenz/Projects/Keyboard/kicad/SparkFun-KiCad-Libraries/Footprints/Connectors.pretty)(options "")(descr ""))
+)

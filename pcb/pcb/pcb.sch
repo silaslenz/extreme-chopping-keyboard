@@ -1,0 +1,1072 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keyboard_parts:KEYSW K11
+U 1 1 5E653905
+P 3500 1350
+F 0 "K11" H 3500 1583 60  0000 C CNN
+F 1 "KEYSW" H 3500 1250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 3500 1350 60  0001 C CNN
+F 3 "" H 3500 1350 60  0000 C CNN
+	1    3500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 5E656300
+P 3100 1500
+F 0 "D11" V 3146 1421 50  0000 R CNN
+F 1 "D" V 3055 1421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3100 1500 50  0001 C CNN
+F 3 "~" H 3100 1500 50  0001 C CNN
+	1    3100 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 1350 3100 1350
+$Comp
+L keyboard_parts:KEYSW K12
+U 1 1 5E659106
+P 3500 1850
+F 0 "K12" H 3500 2083 60  0000 C CNN
+F 1 "KEYSW" H 3500 1750 60  0001 C CNN
+F 2 "keebs:Mx_Alps_150" H 3500 1850 60  0001 C CNN
+F 3 "" H 3500 1850 60  0000 C CNN
+	1    3500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5E65910C
+P 3100 2000
+F 0 "D12" V 3146 1921 50  0000 R CNN
+F 1 "D" V 3055 1921 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3100 2000 50  0001 C CNN
+F 3 "~" H 3100 2000 50  0001 C CNN
+	1    3100 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 1850 3100 1850
+$Comp
+L keyboard_parts:KEYSW K13
+U 1 1 5E6598FC
+P 3500 2350
+F 0 "K13" H 3500 2583 60  0000 C CNN
+F 1 "KEYSW" H 3500 2250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_175" H 3500 2350 60  0001 C CNN
+F 3 "" H 3500 2350 60  0000 C CNN
+	1    3500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 5E659902
+P 3100 2500
+F 0 "D13" V 3146 2421 50  0000 R CNN
+F 1 "D" V 3055 2421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3100 2500 50  0001 C CNN
+F 3 "~" H 3100 2500 50  0001 C CNN
+	1    3100 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 2350 3100 2350
+$Comp
+L keyboard_parts:KEYSW K14
+U 1 1 5E659ED6
+P 3500 2850
+F 0 "K14" H 3500 3083 60  0000 C CNN
+F 1 "KEYSW" H 3500 2750 60  0001 C CNN
+F 2 "keebs:Mx_Alps_125" H 3500 2850 60  0001 C CNN
+F 3 "" H 3500 2850 60  0000 C CNN
+	1    3500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 5E659EDC
+P 3100 3000
+F 0 "D14" V 3146 2921 50  0000 R CNN
+F 1 "D" V 3055 2921 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3100 3000 50  0001 C CNN
+F 3 "~" H 3100 3000 50  0001 C CNN
+	1    3100 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 2850 3100 2850
+Wire Wire Line
+	3100 1650 4050 1650
+Wire Wire Line
+	3800 1350 3800 1850
+Wire Wire Line
+	3800 1850 3800 2350
+Connection ~ 3800 1850
+Wire Wire Line
+	4050 2650 3100 2650
+Wire Wire Line
+	3100 3150 4050 3150
+NoConn ~ 850  1450
+NoConn ~ 850  1550
+NoConn ~ 850  1650
+NoConn ~ 850  1750
+NoConn ~ 850  1850
+NoConn ~ 1750 1950
+NoConn ~ 1750 1850
+NoConn ~ 1750 1650
+NoConn ~ 1750 1450
+Connection ~ 3800 1350
+Wire Wire Line
+	3800 1350 3800 1150
+$Comp
+L SparkFun-Boards:SPARKFUN_PRO_MICRO B1
+U 1 1 5E6508B9
+P 1300 2000
+F 0 "B1" H 1300 2910 45  0000 C CNN
+F 1 "SPARKFUN_PRO_MICRO" H 1300 2826 45  0000 C CNN
+F 2 "Boards:SPARKFUN_PRO_MICRO" H 1300 2800 20  0001 C CNN
+F 3 "" H 1300 2000 50  0001 C CNN
+F 4 "XXX-00000" H 1300 2731 60  0000 C CNN "Field4"
+	1    1300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K15
+U 1 1 5E698B46
+P 3500 3350
+F 0 "K15" H 3500 3583 60  0000 C CNN
+F 1 "KEYSW" H 3500 3250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_125" H 3500 3350 60  0001 C CNN
+F 3 "" H 3500 3350 60  0000 C CNN
+	1    3500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5E698B4C
+P 3100 3500
+F 0 "D15" V 3146 3421 50  0000 R CNN
+F 1 "D" V 3055 3421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3100 3500 50  0001 C CNN
+F 3 "~" H 3100 3500 50  0001 C CNN
+	1    3100 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 3350 3100 3350
+Wire Wire Line
+	3800 2850 3800 3350
+Wire Wire Line
+	3100 2150 4050 2150
+Connection ~ 3800 2350
+Wire Wire Line
+	3800 2350 3800 2850
+Connection ~ 3800 2850
+$Comp
+L keyboard_parts:KEYSW K21
+U 1 1 5E6DC364
+P 4450 1350
+F 0 "K21" H 4450 1583 60  0000 C CNN
+F 1 "KEYSW" H 4450 1250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 4450 1350 60  0001 C CNN
+F 3 "" H 4450 1350 60  0000 C CNN
+	1    4450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 5E6DC36A
+P 4050 1500
+F 0 "D21" V 4096 1421 50  0000 R CNN
+F 1 "D" V 4005 1421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4050 1500 50  0001 C CNN
+F 3 "~" H 4050 1500 50  0001 C CNN
+	1    4050 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 1350 4050 1350
+$Comp
+L keyboard_parts:KEYSW K22
+U 1 1 5E6DC371
+P 4450 1850
+F 0 "K22" H 4450 2083 60  0000 C CNN
+F 1 "KEYSW" H 4450 1750 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 4450 1850 60  0001 C CNN
+F 3 "" H 4450 1850 60  0000 C CNN
+	1    4450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 5E6DC377
+P 4050 2000
+F 0 "D22" V 4096 1921 50  0000 R CNN
+F 1 "D" V 4005 1921 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4050 2000 50  0001 C CNN
+F 3 "~" H 4050 2000 50  0001 C CNN
+	1    4050 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 1850 4050 1850
+$Comp
+L keyboard_parts:KEYSW K23
+U 1 1 5E6DC37E
+P 4450 2350
+F 0 "K23" H 4450 2583 60  0000 C CNN
+F 1 "KEYSW" H 4450 2250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 4450 2350 60  0001 C CNN
+F 3 "" H 4450 2350 60  0000 C CNN
+	1    4450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 5E6DC384
+P 4050 2500
+F 0 "D23" V 4096 2421 50  0000 R CNN
+F 1 "D" V 4005 2421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4050 2500 50  0001 C CNN
+F 3 "~" H 4050 2500 50  0001 C CNN
+	1    4050 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 2350 4050 2350
+$Comp
+L keyboard_parts:KEYSW K24
+U 1 1 5E6DC38B
+P 4450 2850
+F 0 "K24" H 4450 3083 60  0000 C CNN
+F 1 "KEYSW" H 4450 2750 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 4450 2850 60  0001 C CNN
+F 3 "" H 4450 2850 60  0000 C CNN
+	1    4450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 5E6DC391
+P 4050 3000
+F 0 "D24" V 4096 2921 50  0000 R CNN
+F 1 "D" V 4005 2921 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4050 3000 50  0001 C CNN
+F 3 "~" H 4050 3000 50  0001 C CNN
+	1    4050 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 2850 4050 2850
+Wire Wire Line
+	4050 1650 5000 1650
+Wire Wire Line
+	4750 1350 4750 1850
+Connection ~ 4750 1850
+Wire Wire Line
+	5000 2650 4050 2650
+Wire Wire Line
+	4050 3150 5000 3150
+Connection ~ 4750 1350
+Wire Wire Line
+	4750 1350 4750 1150
+$Comp
+L keyboard_parts:KEYSW K25
+U 1 1 5E6DC3A1
+P 4450 3350
+F 0 "K25" H 4450 3583 60  0000 C CNN
+F 1 "KEYSW" H 4450 3250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_125" H 4450 3350 60  0001 C CNN
+F 3 "" H 4450 3350 60  0000 C CNN
+	1    4450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 5E6DC3A7
+P 4050 3500
+F 0 "D25" V 4096 3421 50  0000 R CNN
+F 1 "D" V 4005 3421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4050 3500 50  0001 C CNN
+F 3 "~" H 4050 3500 50  0001 C CNN
+	1    4050 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 3350 4050 3350
+Wire Wire Line
+	4750 2850 4750 3350
+Connection ~ 4750 2350
+Wire Wire Line
+	4750 2350 4750 2850
+Connection ~ 4750 2850
+$Comp
+L keyboard_parts:KEYSW K31
+U 1 1 5E6DEE97
+P 5400 1350
+F 0 "K31" H 5400 1583 60  0000 C CNN
+F 1 "KEYSW" H 5400 1250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 5400 1350 60  0001 C CNN
+F 3 "" H 5400 1350 60  0000 C CNN
+	1    5400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 5E6DEE9D
+P 5000 1500
+F 0 "D31" V 5046 1421 50  0000 R CNN
+F 1 "D" V 4955 1421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5000 1500 50  0001 C CNN
+F 3 "~" H 5000 1500 50  0001 C CNN
+	1    5000 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 1350 5000 1350
+$Comp
+L keyboard_parts:KEYSW K32
+U 1 1 5E6DEEA4
+P 5400 1850
+F 0 "K32" H 5400 2083 60  0000 C CNN
+F 1 "KEYSW" H 5400 1750 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 5400 1850 60  0001 C CNN
+F 3 "" H 5400 1850 60  0000 C CNN
+	1    5400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 5E6DEEAA
+P 5000 2000
+F 0 "D32" V 5046 1921 50  0000 R CNN
+F 1 "D" V 4955 1921 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5000 2000 50  0001 C CNN
+F 3 "~" H 5000 2000 50  0001 C CNN
+	1    5000 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 1850 5000 1850
+$Comp
+L keyboard_parts:KEYSW K33
+U 1 1 5E6DEEB1
+P 5400 2350
+F 0 "K33" H 5400 2583 60  0000 C CNN
+F 1 "KEYSW" H 5400 2250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 5400 2350 60  0001 C CNN
+F 3 "" H 5400 2350 60  0000 C CNN
+	1    5400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 5E6DEEB7
+P 5000 2500
+F 0 "D33" V 5046 2421 50  0000 R CNN
+F 1 "D" V 4955 2421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5000 2500 50  0001 C CNN
+F 3 "~" H 5000 2500 50  0001 C CNN
+	1    5000 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 2350 5000 2350
+$Comp
+L keyboard_parts:KEYSW K34
+U 1 1 5E6DEEBE
+P 5400 2850
+F 0 "K34" H 5400 3083 60  0000 C CNN
+F 1 "KEYSW" H 5400 2750 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 5400 2850 60  0001 C CNN
+F 3 "" H 5400 2850 60  0000 C CNN
+	1    5400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 5E6DEEC4
+P 5000 3000
+F 0 "D34" V 5046 2921 50  0000 R CNN
+F 1 "D" V 4955 2921 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5000 3000 50  0001 C CNN
+F 3 "~" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 2850 5000 2850
+Wire Wire Line
+	5000 1650 5950 1650
+Wire Wire Line
+	5700 1350 5700 1850
+Wire Wire Line
+	5700 1850 5700 2350
+Connection ~ 5700 1850
+Wire Wire Line
+	5950 2650 5000 2650
+Wire Wire Line
+	5000 3150 5950 3150
+Connection ~ 5700 1350
+Wire Wire Line
+	5700 1350 5700 1150
+$Comp
+L keyboard_parts:KEYSW K35
+U 1 1 5E6DEED4
+P 5400 3350
+F 0 "K35" H 5400 3583 60  0000 C CNN
+F 1 "KEYSW" H 5400 3250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_125" H 5400 3350 60  0001 C CNN
+F 3 "" H 5400 3350 60  0000 C CNN
+	1    5400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 5E6DEEDA
+P 5000 3500
+F 0 "D35" V 5046 3421 50  0000 R CNN
+F 1 "D" V 4955 3421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5000 3500 50  0001 C CNN
+F 3 "~" H 5000 3500 50  0001 C CNN
+	1    5000 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 3350 5000 3350
+Wire Wire Line
+	5700 2850 5700 3350
+Wire Wire Line
+	5000 2150 5950 2150
+Connection ~ 5700 2350
+Wire Wire Line
+	5700 2350 5700 2850
+Connection ~ 5700 2850
+$Comp
+L keyboard_parts:KEYSW K41
+U 1 1 5E6E754D
+P 6350 1350
+F 0 "K41" H 6350 1583 60  0000 C CNN
+F 1 "KEYSW" H 6350 1250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 6350 1350 60  0001 C CNN
+F 3 "" H 6350 1350 60  0000 C CNN
+	1    6350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 5E6E7553
+P 5950 1500
+F 0 "D41" V 5996 1421 50  0000 R CNN
+F 1 "D" V 5905 1421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5950 1500 50  0001 C CNN
+F 3 "~" H 5950 1500 50  0001 C CNN
+	1    5950 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 1350 5950 1350
+$Comp
+L keyboard_parts:KEYSW K42
+U 1 1 5E6E755A
+P 6350 1850
+F 0 "K42" H 6350 2083 60  0000 C CNN
+F 1 "KEYSW" H 6350 1750 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 6350 1850 60  0001 C CNN
+F 3 "" H 6350 1850 60  0000 C CNN
+	1    6350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 5E6E7560
+P 5950 2000
+F 0 "D42" V 5996 1921 50  0000 R CNN
+F 1 "D" V 5905 1921 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5950 2000 50  0001 C CNN
+F 3 "~" H 5950 2000 50  0001 C CNN
+	1    5950 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 1850 5950 1850
+$Comp
+L keyboard_parts:KEYSW K43
+U 1 1 5E6E7567
+P 6350 2350
+F 0 "K43" H 6350 2583 60  0000 C CNN
+F 1 "KEYSW" H 6350 2250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 6350 2350 60  0001 C CNN
+F 3 "" H 6350 2350 60  0000 C CNN
+	1    6350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 5E6E756D
+P 5950 2500
+F 0 "D43" V 5996 2421 50  0000 R CNN
+F 1 "D" V 5905 2421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5950 2500 50  0001 C CNN
+F 3 "~" H 5950 2500 50  0001 C CNN
+	1    5950 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 2350 5950 2350
+$Comp
+L keyboard_parts:KEYSW K44
+U 1 1 5E6E7574
+P 6350 2850
+F 0 "K44" H 6350 3083 60  0000 C CNN
+F 1 "KEYSW" H 6350 2750 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 6350 2850 60  0001 C CNN
+F 3 "" H 6350 2850 60  0000 C CNN
+	1    6350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 5E6E757A
+P 5950 3000
+F 0 "D44" V 5996 2921 50  0000 R CNN
+F 1 "D" V 5905 2921 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5950 3000 50  0001 C CNN
+F 3 "~" H 5950 3000 50  0001 C CNN
+	1    5950 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 2850 5950 2850
+Wire Wire Line
+	5950 1650 6900 1650
+Wire Wire Line
+	6650 1350 6650 1850
+Wire Wire Line
+	6650 1850 6650 2350
+Connection ~ 6650 1850
+Wire Wire Line
+	6900 2650 5950 2650
+Wire Wire Line
+	5950 3150 6900 3150
+Connection ~ 6650 1350
+Wire Wire Line
+	6650 1350 6650 1150
+$Comp
+L keyboard_parts:KEYSW K45
+U 1 1 5E6E758A
+P 6350 3350
+F 0 "K45" H 6350 3583 60  0000 C CNN
+F 1 "KEYSW" H 6350 3250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_125" H 6350 3350 60  0001 C CNN
+F 3 "" H 6350 3350 60  0000 C CNN
+	1    6350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 5E6E7590
+P 5950 3500
+F 0 "D45" V 5996 3421 50  0000 R CNN
+F 1 "D" V 5905 3421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5950 3500 50  0001 C CNN
+F 3 "~" H 5950 3500 50  0001 C CNN
+	1    5950 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 3350 5950 3350
+Wire Wire Line
+	6650 2850 6650 3350
+Wire Wire Line
+	5950 2150 6900 2150
+Connection ~ 6650 2350
+Wire Wire Line
+	6650 2350 6650 2850
+Connection ~ 6650 2850
+$Comp
+L keyboard_parts:KEYSW K51
+U 1 1 5E6ED978
+P 7300 1350
+F 0 "K51" H 7300 1583 60  0000 C CNN
+F 1 "KEYSW" H 7300 1250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 7300 1350 60  0001 C CNN
+F 3 "" H 7300 1350 60  0000 C CNN
+	1    7300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D51
+U 1 1 5E6ED97E
+P 6900 1500
+F 0 "D51" V 6946 1421 50  0000 R CNN
+F 1 "D" V 6855 1421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6900 1500 50  0001 C CNN
+F 3 "~" H 6900 1500 50  0001 C CNN
+	1    6900 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 1350 6900 1350
+$Comp
+L keyboard_parts:KEYSW K52
+U 1 1 5E6ED985
+P 7300 1850
+F 0 "K52" H 7300 2083 60  0000 C CNN
+F 1 "KEYSW" H 7300 1750 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 7300 1850 60  0001 C CNN
+F 3 "" H 7300 1850 60  0000 C CNN
+	1    7300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D52
+U 1 1 5E6ED98B
+P 6900 2000
+F 0 "D52" V 6946 1921 50  0000 R CNN
+F 1 "D" V 6855 1921 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6900 2000 50  0001 C CNN
+F 3 "~" H 6900 2000 50  0001 C CNN
+	1    6900 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 1850 6900 1850
+$Comp
+L keyboard_parts:KEYSW K53
+U 1 1 5E6ED992
+P 7300 2350
+F 0 "K53" H 7300 2583 60  0000 C CNN
+F 1 "KEYSW" H 7300 2250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 7300 2350 60  0001 C CNN
+F 3 "" H 7300 2350 60  0000 C CNN
+	1    7300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D53
+U 1 1 5E6ED998
+P 6900 2500
+F 0 "D53" V 6946 2421 50  0000 R CNN
+F 1 "D" V 6855 2421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6900 2500 50  0001 C CNN
+F 3 "~" H 6900 2500 50  0001 C CNN
+	1    6900 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 2350 6900 2350
+$Comp
+L keyboard_parts:KEYSW K54
+U 1 1 5E6ED99F
+P 7300 2850
+F 0 "K54" H 7300 3083 60  0000 C CNN
+F 1 "KEYSW" H 7300 2750 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 7300 2850 60  0001 C CNN
+F 3 "" H 7300 2850 60  0000 C CNN
+	1    7300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D54
+U 1 1 5E6ED9A5
+P 6900 3000
+F 0 "D54" V 6946 2921 50  0000 R CNN
+F 1 "D" V 6855 2921 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6900 3000 50  0001 C CNN
+F 3 "~" H 6900 3000 50  0001 C CNN
+	1    6900 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 2850 6900 2850
+Wire Wire Line
+	6900 1650 7850 1650
+Wire Wire Line
+	7600 1350 7600 1850
+Wire Wire Line
+	7600 1850 7600 2350
+Connection ~ 7600 1850
+Wire Wire Line
+	7850 2650 6900 2650
+Wire Wire Line
+	6900 3150 7850 3150
+Connection ~ 7600 1350
+Wire Wire Line
+	7600 1350 7600 1150
+$Comp
+L keyboard_parts:KEYSW K55
+U 1 1 5E6ED9B5
+P 7300 3350
+F 0 "K55" H 7300 3583 60  0000 C CNN
+F 1 "KEYSW" H 7300 3250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_125" H 7300 3350 60  0001 C CNN
+F 3 "" H 7300 3350 60  0000 C CNN
+	1    7300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D55
+U 1 1 5E6ED9BB
+P 6900 3500
+F 0 "D55" V 6946 3421 50  0000 R CNN
+F 1 "D" V 6855 3421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6900 3500 50  0001 C CNN
+F 3 "~" H 6900 3500 50  0001 C CNN
+	1    6900 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 3350 6900 3350
+Wire Wire Line
+	7600 2850 7600 3350
+Wire Wire Line
+	6900 2150 7850 2150
+Connection ~ 7600 2350
+Wire Wire Line
+	7600 2350 7600 2850
+Connection ~ 7600 2850
+$Comp
+L keyboard_parts:KEYSW K61
+U 1 1 5E6F2F57
+P 8250 1350
+F 0 "K61" H 8250 1583 60  0000 C CNN
+F 1 "KEYSW" H 8250 1250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 8250 1350 60  0001 C CNN
+F 3 "" H 8250 1350 60  0000 C CNN
+	1    8250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D61
+U 1 1 5E6F2F5D
+P 7850 1500
+F 0 "D61" V 7896 1421 50  0000 R CNN
+F 1 "D" V 7805 1421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7850 1500 50  0001 C CNN
+F 3 "~" H 7850 1500 50  0001 C CNN
+	1    7850 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7950 1350 7850 1350
+$Comp
+L keyboard_parts:KEYSW K62
+U 1 1 5E6F2F64
+P 8250 1850
+F 0 "K62" H 8250 2083 60  0000 C CNN
+F 1 "KEYSW" H 8250 1750 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 8250 1850 60  0001 C CNN
+F 3 "" H 8250 1850 60  0000 C CNN
+	1    8250 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D62
+U 1 1 5E6F2F6A
+P 7850 2000
+F 0 "D62" V 7896 1921 50  0000 R CNN
+F 1 "D" V 7805 1921 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7850 2000 50  0001 C CNN
+F 3 "~" H 7850 2000 50  0001 C CNN
+	1    7850 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7950 1850 7850 1850
+$Comp
+L keyboard_parts:KEYSW K63
+U 1 1 5E6F2F71
+P 8250 2350
+F 0 "K63" H 8250 2583 60  0000 C CNN
+F 1 "KEYSW" H 8250 2250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 8250 2350 60  0001 C CNN
+F 3 "" H 8250 2350 60  0000 C CNN
+	1    8250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D63
+U 1 1 5E6F2F77
+P 7850 2500
+F 0 "D63" V 7896 2421 50  0000 R CNN
+F 1 "D" V 7805 2421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7850 2500 50  0001 C CNN
+F 3 "~" H 7850 2500 50  0001 C CNN
+	1    7850 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7950 2350 7850 2350
+$Comp
+L keyboard_parts:KEYSW K64
+U 1 1 5E6F2F7E
+P 8250 2850
+F 0 "K64" H 8250 3083 60  0000 C CNN
+F 1 "KEYSW" H 8250 2750 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 8250 2850 60  0001 C CNN
+F 3 "" H 8250 2850 60  0000 C CNN
+	1    8250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D64
+U 1 1 5E6F2F84
+P 7850 3000
+F 0 "D64" V 7896 2921 50  0000 R CNN
+F 1 "D" V 7805 2921 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7850 3000 50  0001 C CNN
+F 3 "~" H 7850 3000 50  0001 C CNN
+	1    7850 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7950 2850 7850 2850
+Wire Wire Line
+	7850 1650 8800 1650
+Wire Wire Line
+	8550 1350 8550 1850
+Wire Wire Line
+	8550 1850 8550 2350
+Connection ~ 8550 1850
+Connection ~ 8550 1350
+Wire Wire Line
+	8550 1350 8550 1150
+$Comp
+L keyboard_parts:KEYSW K65
+U 1 1 5E6F2F94
+P 8250 3350
+F 0 "K65" H 8250 3583 60  0000 C CNN
+F 1 "KEYSW" H 8250 3250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_175" H 8250 3350 60  0001 C CNN
+F 3 "" H 8250 3350 60  0000 C CNN
+	1    8250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D65
+U 1 1 5E6F2F9A
+P 7850 3500
+F 0 "D65" V 7896 3421 50  0000 R CNN
+F 1 "D" V 7805 3421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7850 3500 50  0001 C CNN
+F 3 "~" H 7850 3500 50  0001 C CNN
+	1    7850 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7950 3350 7850 3350
+Wire Wire Line
+	8550 2850 8550 3350
+Connection ~ 8550 2350
+Wire Wire Line
+	8550 2350 8550 2850
+Connection ~ 8550 2850
+$Comp
+L keyboard_parts:KEYSW K71
+U 1 1 5E6FA0B1
+P 9200 1350
+F 0 "K71" H 9200 1583 60  0000 C CNN
+F 1 "KEYSW" H 9200 1250 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 9200 1350 60  0001 C CNN
+F 3 "" H 9200 1350 60  0000 C CNN
+	1    9200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D71
+U 1 1 5E6FA0B7
+P 8800 1500
+F 0 "D71" V 8846 1421 50  0000 R CNN
+F 1 "D" V 8755 1421 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8800 1500 50  0001 C CNN
+F 3 "~" H 8800 1500 50  0001 C CNN
+	1    8800 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 1350 8800 1350
+Wire Wire Line
+	9500 1350 9500 1150
+Wire Wire Line
+	7850 3650 6900 3650
+Connection ~ 4050 3650
+Wire Wire Line
+	4050 3650 3100 3650
+Connection ~ 5000 3650
+Wire Wire Line
+	5000 3650 4050 3650
+Connection ~ 5950 3650
+Wire Wire Line
+	5950 3650 5000 3650
+Connection ~ 6900 3650
+Wire Wire Line
+	6900 3650 5950 3650
+Text Label 2800 1650 0    50   ~ 0
+R1
+Wire Wire Line
+	2800 1650 3100 1650
+Connection ~ 3100 1650
+Text Label 2800 2150 0    50   ~ 0
+R2
+Wire Wire Line
+	2800 2150 3100 2150
+Connection ~ 3100 2150
+Text Label 550  2050 0    50   ~ 0
+R1
+Wire Wire Line
+	550  2050 850  2050
+Text Label 550  2150 0    50   ~ 0
+R2
+Wire Wire Line
+	550  2150 850  2150
+Text Label 550  2250 0    50   ~ 0
+R3
+Wire Wire Line
+	550  2250 850  2250
+Text Label 2800 2650 0    50   ~ 0
+R3
+Text Label 2800 3150 0    50   ~ 0
+R4
+Text Label 2800 3650 0    50   ~ 0
+R5
+Text Label 550  2350 0    50   ~ 0
+R4
+Text Label 550  2450 0    50   ~ 0
+R5
+Wire Wire Line
+	550  2350 850  2350
+Wire Wire Line
+	850  2450 550  2450
+Text Label 3800 1150 0    50   ~ 0
+C1
+Text Label 4750 1150 0    50   ~ 0
+C2
+Text Label 5700 1150 0    50   ~ 0
+C3
+Text Label 6650 1150 0    50   ~ 0
+C4
+Text Label 7600 1150 0    50   ~ 0
+C5
+Text Label 8550 1150 0    50   ~ 0
+C6
+Text Label 9500 1150 0    50   ~ 0
+C7
+Text Label 550  2550 0    50   ~ 0
+C1
+Wire Wire Line
+	550  2550 850  2550
+Text Label 1850 2550 0    50   ~ 0
+C2
+Text Label 1850 2450 0    50   ~ 0
+C3
+Text Label 1850 2350 0    50   ~ 0
+C4
+Text Label 1850 2250 0    50   ~ 0
+C5
+Text Label 1850 2150 0    50   ~ 0
+C6
+Text Label 1850 2050 0    50   ~ 0
+C7
+Wire Wire Line
+	1750 2050 1850 2050
+Wire Wire Line
+	1850 2150 1750 2150
+Wire Wire Line
+	1750 2250 1850 2250
+Wire Wire Line
+	1850 2350 1750 2350
+Wire Wire Line
+	1750 2450 1850 2450
+Wire Wire Line
+	1850 2550 1750 2550
+Wire Wire Line
+	4050 2150 5000 2150
+Wire Wire Line
+	4750 1850 4750 2350
+Wire Wire Line
+	3100 2650 2800 2650
+Connection ~ 3100 2650
+Wire Wire Line
+	2800 3150 3100 3150
+Connection ~ 3100 3150
+Wire Wire Line
+	2800 3650 3100 3650
+Connection ~ 3100 3650
+Wire Wire Line
+	1750 1550 1850 1550
+$Comp
+L power:VCC #PWR0102
+U 1 1 5E7E5703
+P 1950 1800
+F 0 "#PWR0102" H 1950 1650 50  0001 C CNN
+F 1 "VCC" H 1967 1973 50  0000 C CNN
+F 2 "" H 1950 1800 50  0001 C CNN
+F 3 "" H 1950 1800 50  0001 C CNN
+	1    1950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E7E097C
+P 1850 1550
+F 0 "#PWR0101" H 1850 1300 50  0001 C CNN
+F 1 "GND" H 1855 1377 50  0000 C CNN
+F 2 "" H 1850 1550 50  0001 C CNN
+F 3 "" H 1850 1550 50  0001 C CNN
+	1    1850 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1750 1950 1750
+Wire Wire Line
+	1950 1750 1950 1800
+Wire Wire Line
+	1000 550  1950 550 
+Wire Wire Line
+	1950 550  1950 1750
+Connection ~ 1950 1750
+$Comp
+L SparkFun-Connectors:AUDIO_JACK_TRRSSMD_RA J1
+U 1 1 5E820B78
+P 750 650
+F 0 "J1" H 733 1126 45  0000 C CNN
+F 1 "AUDIO_JACK_TRRSSMD_RA" H 733 1042 45  0000 C CNN
+F 2 "Connectors:AUDIO_JACK_3.5MM_TRRS_SMD_RA" H 750 1000 20  0001 C CNN
+F 3 "" H 750 650 50  0001 C CNN
+F 4 "CONN-10676" H 733 947 60  0000 C CNN "Field4"
+	1    750  650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  450  1000 450 
+Wire Wire Line
+	1000 450  1000 550 
+Wire Wire Line
+	950  900  950  850 
+Wire Wire Line
+	950  900  1850 900 
+Wire Wire Line
+	1850 900  1850 1550
+Connection ~ 1850 1550
+Wire Wire Line
+	950  750  750  750 
+Wire Wire Line
+	750  750  750  1950
+Wire Wire Line
+	750  1950 850  1950
+$EndSCHEMATC
